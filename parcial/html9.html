@@ -1,0 +1,45 @@
+<html lang="es">
+<head>      
+  <meta charset="UTF-8">
+     <title>Formularios en html</title>
+</head>
+<body>
+   <h1>Formularios en HTML</h1>
+   <hr>
+   <h3>Etiqueta y cuadro de texto</h3>
+   <label>nombre completo:</label>
+   <input type="text" name="txtNombre" id="txtNombre">
+   <h3>botones</h3>
+   <button>saludar</button>
+   <input type="button" value="saludar con input">
+   <input type="submit" value="saludar con input submit">
+   <button type="submit">saludaro con button y sumbit</button>
+   <h3>radio button</h3>
+   <label><input type="radio" name="rbGenero" id="rbFemenino" checked>Femenino</label>
+   <br>
+   <label><input type="radio" name="rbGenero" id="rbMasculino">Masculino</label>
+   <h3>Checkbox</h3>
+    <label><input type="checkbox" name="chkPiso" id="chkPiso">piso firme</label>
+    <label><input type="checkbox" name="chklavadora" id="chklavadora">piso firme</label>
+    <label><input type="checkbox" name="chkDvd" id="chkDvd">piso firme</label>
+    <h3>select o lista desplegable(Listbox)</h3>
+    <select name="municipio" id="municipio">
+        <optgroup label="sinaloa">
+        <option value="0" selected>seleccionar municipio</option>
+        <option value="1">Ahome</option> 
+        <option value="6">culiacan</option>   
+        <option value="11">guasave</option> 
+        </optgroup>
+        <optgroup label="sonora">
+        <option value="1">hermocillo</option>    
+        </optgroup>
+    </select>     
+    <h3>Fieldset (Grupbox)</h3>
+        <fieldset>
+        <legend>Titulo del fieldset</legend>  
+        <input type="text" placeholder="twiter">
+        <input type="text" placeholder="fabook">
+        <button>validar</button>  
+        </fieldset>    
+         </body>
+</html>
