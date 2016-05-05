@@ -7,3 +7,30 @@
 nav li {display: inline-block; }
 nav a  {padding:10px;background-color: aqua;}
 nav a:hover{background-color:firebrick;}
+nav {
+    height: 50px;
+}
+#notas-principal{
+    height: 300px;
+    background: green
+}
+
+#notas-secundarias{
+    width: 660px;
+    float: left;
+    padding: 20px;
+    background: black
+}
+
+
+aside {
+    width:623px;
+    float: right;
+    padding: 5px;
+    background: blue;
+}
+
+footer {
+    clear: both;
+    background: purple;
+}
