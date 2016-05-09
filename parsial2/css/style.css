@@ -19,18 +19,32 @@ nav {
     width: 660px;
     float: left;
     padding: 20px;
-    background: black
+    background: black;
+    height: 260px;
 }
 
 
 aside {
-    width:623px;
+    width:210px;
     float: right;
-    padding: 5px;
+    padding:5px;
     background: blue;
+    height: 290px;
+    
 }
 
 footer {
     clear: both;
     background: purple;
+    height: 150px;
 }
+
+h1,h2,h3,h4 {
+    margin: 0;
+    padding: 0;
+    padding-left: 310px;
+    font-size: 1.5;
+
+}
+
+
