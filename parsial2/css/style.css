@@ -14,8 +14,8 @@ nav {
 #notas-principal{
     height: 300px;
     background: green
-        border: 10px solid hobr;
-    box-shadow: 0,0,10px; #ddd
+      /*border: 10px solid hobr;*/
+    /*box-shadow: 0,0,10px; #ddd*/
 }
 
 #notas-secundarias{
@@ -24,6 +24,7 @@ nav {
     padding: 20px;
     background: black;
     height: 260px;
+    margin: auto;
 }
 
 
@@ -41,32 +42,23 @@ footer {
     background: purple;
     height: 150px;
     width: 920px;
+    margin: auto;
 }
-
-
-#titulos h1{font-size: 1.5em}
-#titulos h2{font-size: 1.2em}
-#titulos h3{font-size: 0.9em}
-#titulos h4{font-size: 0.8em}
-
-
-
 
 header {
     height: 120px;
     display: flex;
     justify-content: space-between;
     width: 920px;
+    margin: auto;
 }
-#titulos*{margin: 0;
     
-}
-
 #barra-navegacion {
     height:50px;
     display:flex;
     justify-content: center;
     width: 920px;
+    margin: auto;
 }
 
 #barra-navegacion ul ul{
@@ -90,4 +82,32 @@ header {
 
 #contenido {
     width: 920px;
+    margin: auto;
+}
+
+
+#titulos h1{font-size: 1.4em}
+#titulos h2{font-size: 1.1em}
+#titulos h3{font-size: 0.9em}
+#titulos h4{font-size: 0.7em}
+
+
+div titulos h1,h2,h3,h4{
+    margin: 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+figure {
+    margin: 0;
 }
