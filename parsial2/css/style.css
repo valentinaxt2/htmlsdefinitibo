@@ -12,10 +12,12 @@ nav {
     justify-content: center;
 }
 #notas-principal{
+   margin: auto;
+    padding: 0;
     height: 300px;
-    background: green
-      /*border: 10px solid hobr;*/
-    /*box-shadow: 0,0,10px; #ddd*/
+    width: 920px;
+    border-color:white;
+    box-shadow: 10px 10px 10px grey;
 }
 
 #notas-secundarias{
@@ -96,17 +98,6 @@ div titulos h1,h2,h3,h4{
     margin: 0;
     
 }
-
-
-
-
-
-
-
-
-
-
-
 
 figure {
     margin: 0;
