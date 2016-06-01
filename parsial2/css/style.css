@@ -42,7 +42,7 @@ aside {
     float: right;
     padding:5px;
     background: blue;
-    min-height: 290px;
+    min-height: 290;
     
 }
 
@@ -112,67 +112,163 @@ figure {
     margin: 0;
     position: relative;
 }
-
-
-#notas-secundarias figure span {
+#notas-secundarias article{
+     display: flex;
+     background-image: url('../Imagenes/sombra.png');
+     background-repeat: no-repeat;
+     background-position: bottom;
+     padding-bottom: 40px;
+     margin-bottom: 30px;
+}
+#notas-secundarias figure{
+    position: relative;
+}
+#notas-secundarias figure span{
     position: absolute;
-    top: 15px;
-    left: -17px;
-    padding: 5px 10px;
-    background-color: lightgray;
-    box-shadow: 1px 1px 3px darkgray;
+    top: 10px;
+    left: -10px;
+    padding: 5px 20px;
+    background-color: lightgrey;
+    box-shadow: 1px 1px 3px darkgrey;
 }
 #notas-secundarias article div{
-    padding-left: 20px;
-    padding-right: 10px;
+    padding-left: 10px;
 }
-
-#notas-secundarias article div{
+#notas-secundarias article div p {
     text-align: justify;
+    line-height: 0.8em;
 }
 #notas-secundarias article h2{
     font-variant: small-caps;
-    line-height: 0.8em;
+    line-height: 0.7em;
 }
 #notas-secundarias a{
     color: #b92025;
     text-decoration: none;
 }
 #notas-secundarias a:hover{
-    color: #2a6496;
+    color: blue;
     text-decoration: underline;
+}
+#notas-secundarias {
+    width: 730px;
+    min-height: 260px;
+}
+#publicidad{
+    width: 210px;
+    padding: 5px;
+    height: 640px;
+    padding-left: 5px;
+    border-left: 1px solid #bdbdbd;
+}
+
+#pie{
+    min-height: height: 150px;
 }
 .sombra-imagen{
     box-shadow: 0 0 5px darkgray;
-}
-.ver-mas div{
-    margin: 0 !important;
-    padding: 10 !important;
-}
-/*.ver-mas>div{
-    height: 2em;
-    background-color: #b92025;
-    display: inline-block;
-}
-.ver-mas>div>div{
-    text-align: center;
-    color:white;
-    font-weight: bold;}*/
-.boton {
-    background: #AA3521;
-    display: inline-block;
-    padding: 2px;
-    box-shadow: 0px 2px 3px darkgray;
+    margin-bottom: 10px;
 }
 
-.boton>div {
-    padding: 1px 20px;
-    border: 1px solid rgba(255,255,255,.7);
-}
-
-.boton p {
+.ver-mas p{
     color: white;
+    font-weight: bold;
+}
+.boton{
+    background: #b92025;
+    display: inline-block;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding: 3px;
+    box-shadow: 0px 1px 3px darkgray;
+    
+}
+
+.boton > div{
+    padding: 1px 3px;
+    border: 1px solid rgba(255,255,255,.7)
+    }
+
+.boton p{
+    color: white;
+    padding: 0 !important;
     font-variant: small-caps;
     font-size: 1.1em;
+    
+}
+.notas-secundarias{
+   display: flex; 
+   justify-content:space-around;
+}
+
+#programas {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#politicas {
+    border-bottom: 3px double lightgray;
+    border-top: 3px double lightgray;
+    padding: 5px;
     text-align: center;
+}
+
+.separador-sems {
+    padding: 5px 0;
+    margin: 20px 0;
+    position: relative;
+    text-align: center;
+}
+
+
+.separador-sems a::before, .separador-sems a::after{
+    content:"";
+    border-top: 3px double lightgray;
+    width: 38%;
+    position: absolute;
+    top: 35px;
+}
+
+.separador-sems a::after{
+  right:0;
+}
+
+.separador-sems a::before{
+  left: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flexible {
+    display: flex;
+}
+
+.facebook, .twitter{
+    text-indent: -9999px;
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+}
+
+.facebook{
+    background: url('../Imagenes/facebook_twitter.png') 0 0;
+}
+
+.twitter{
+    background: url('../Imagenes/facebook_twitter.png') -43px 0;
+}
+
+.facebook:hover {
+    background: url('../Imagenes/facebook_twitter.png') 0 -43px;
+}
+
+.twitter:hover{
+    background: url('../Imagenes/facebook_twitter.png') -43px -43px;
 }

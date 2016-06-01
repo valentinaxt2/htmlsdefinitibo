@@ -5,58 +5,109 @@
      <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <div class="contenido center-block">
-           <header id="encabezado">
-          <figure>
-            <img id="logo-sep" src="imagenes\logo-sep.png" alt="logo sep" width="300px" height="120px">
+      <div class="container block-center">
+        
+        <header id="encabezado">
+        <!--Imagen con logos sep -->
+            <figure>
+             <img id="logo-sep" src="imagenes\logo-sep.png" alt="logo sep" width="300px" height="120px">
             </figure>
-           <!-- imagen con lago sep -->
-           <!-- texto con titulo -->
-           <!-- imagen sens degeti y cuadro de busqueda -->
-           <div id="titulos">
+        <!-- Textos con titulos -->
+            <div id="titulos">
             <h1>Sitio Oficial del CEtis108</h1>
             <h2>Subsecretaria de educacion media superiror</h2>
             <h3>Direccion General de Educacion Tecnologica Industrial</h3>
             <h4>Centro de Estudios Tecnologicos Industrial y de servicios No108</h4>
             <h4>"Gral. Gabriel Leyva Solano" C.C.T.25DCT0108H</h4>
             </div>
-            
-        <div id=busqueda>
-        <figure>
-            <img src="imagenes\logo-sems.png" alt="logo sems">
-        </figure>
-        <input type="text" name="buscar">
-        <button>buscar</button>
-        </div>
-           </header>
-            <div id="titulos"></div>
-           
-            <nav id="barra-navegacion">
-                <ul>
-                    <li><a href="#">inicio</a></li>
-                    <li><a href="#">plantel</a></li>
-                    <li><a href="#">oferta educativa</a></li>
-                    <li><a href="#">alumnos</a></li>
-                    <li><a href="#">docentes</a></li>
-                    <li><a href="#">empleados</a></li>
-                    <li><a href="#">contactos</a></li>
+        <!-- Imagen sems degeti y cuadro de busqueda-->    
+            <div id="busqueda">
+            <figure>
+                 <img src="imagenes\logo-sems.png" alt="logo sems">
+            </figure>
+            <input type="text" name="buscar">
+            <button>buscar</button>
+            </div>
+        </header>
+        <nav id="barra-navegacion">
+           <ul>
+                <li><a href="#">inicio</a></li>
+                <li><a href="#">plantel</a></li>
+                <li><a href="#">oferta educativa</a></li>
+                <li><a href="#">alumnos</a></li>
+                <li><a href="#">docentes</a></li>
+                <li><a href="#">empleados</a></li>
+                <li><a href="#">contactos</a></li>
                 
-                </ul>
-            </nav>
-            <main id="contenido">
-               <section id="notas-principal">
+            </ul>
+        </nav>
+    <main id="contenido">
+        <section id="notas-principal">
+        <img src="imagenes/luis-ariel.jpg" height=300px; width="920px">
+        </section>
+        <div class="flexible">
+        <section id="notas-secundarias">
+            <article class="notas-secundarias">
+            <figure>
+                    <img src="Imagenes\notas\2\tmb.jpg">
+                    <span>27 AGO</span>
                 
-                    <img id="imagen-nota-principal" src="imagenes/nota-principal.jpg" height=300px; width="920px">
-            </section>
-            <section id="notas-secundarias">
-              <article class="=notas-secundarias">
+                </figure>
+            <div>
+                <h2><a href="#">Informe de actividades y rendición de cuentas del ciclo escolar 2013-2014</a></h2>
+                <p>Se llevó a cabo el Informe de Actividades y Rendición de Cuentas en el Centro de Estudios Tecnológicos Industrial y de Servicios No. 108...</p>
+                <a href="#" class="ver-mas">
+                <div class="boton">
+                    <div>
+                        <p>ver mas</p>
+                    </div>
+                </div>
+                </a>
+            </div>
+            </article>
+            <article>
+            <figure>
+                    <img src="Imagenes\notas\3\tmb.jpg">
+                    <span>25 AGO</span>
+              
+                  </figure>
+            <div>
+                <h2><a href="#">Inauguración del nuevo ciclo escolar 2014-2015</a></h2>
+                <p>Con homenaje cívico se dió inicio a las labores del ciclo escolar 2014-2015 en el CETis108...</p>
+                <a href="#" class="ver-mas">
+                <div class="boton">
+                    <div>
+                        <p>ver mas</p>
+                    </div>
+                </div>
+                </a>
+            </div>
+            </article>
+            <article>
+            <figure>
+                    <img src="Imagenes\notas\4\tmb.jpg">
+                    <span>22 AGO</span>
+                </figure>
+            <div>
+                <h2><a href="#">Toma de protesta a nuevo director del CETis108</a></h2>
+                <p>Se llevo a cabo la toma de protesta del nuevo director el C.P. y M.I. Julio Alberto Cruz Perales...</p>
+                <a href="#" class="ver-mas">
+                <div class="boton">
+                    <div>
+                        <p>ver mas</p>
+                    </div>
+                </div>
+                </a>
+            </div>
+            </article>
+            <article>
                   <figure>
                       <img src="imagenes/notas/1/tmb.jpg" alt="nota1">
                       <span>13 NOV</span>
 
                   </figure>
                   <div>
-                      <h2>Feria Vocacional 2014</h2>
+                      <h2><a>Feria Vocacional 2014</a></h2>
                       <p>Con la presencia de múltiples universidades de la región, se lleva a cabo con éxito la Feria Vocacional 2014 en las instalaciones del plantel</p>
                        <a href="#" class"ver-mas"> 
                                <div class="boton">
@@ -67,64 +118,95 @@
                   </a>
                   </div>
               </article>
-              <article class="=notas-secundarias">
+              <article>
+            <figure>
+                    <img src="Imagenes\notas\4\tmb.jpg">
+                    <span>22 AGO</span>
+                </figure>
+            <div>
+                <h2><a href="#">Toma de protesta a nuevo director del CETis108</a></h2>
+                <p>Se llevo a cabo la toma de protesta del nuevo director el C.P. y M.I. Julio Alberto Cruz Perales...</p>
+                <a href="#" class="ver-mas">
+                <div class="boton">
+                    <div>
+                        <p>ver mas</p>
+                    </div>
+                </div>
+                </a>
+            </div>
+            </article>
+            <article>
                   <figure>
-                      <img class=".sombra-imagen" src="imagenes/notas/2/tmb.jpg" alt="nota1">
-                      <span>27 AGO</span>
+                      <img src="imagenes/notas/6/nota-6.jpg">
+                      <span>16 FEB</span>
+
                   </figure>
                   <div>
-                      <h2>Informe de actividades y rendición de cuentas del ciclo escolar 2013-2014</h2>
-                      <p>Se llevó a cabo el Informe de Actividades y Rendición de Cuentas en el Centro de Estudios Tecnológicos Industrial y de Servicios No. 108</p>
-                      <a href="#" class="ver-mas">
-                           <div class="boton">
-                                <div>
-                                    <p>Leer más</p>
-                                </div>
-                            </div>
-                      </a>
-                  </div>
-              </article>
-              <article class="=notas-secundarias">
-                  <figure>
-                      <img src="imagenes/notas/3/tmb.jpg" alt="nota1">
-                      <span>25 AGO</span>
-                  </figure>
-                  <div>
-                      <h2>Inauguración del nuevo ciclo escolar 2014-2015</h2>
-                      <p>Con homenaje cívico se dió inicio a las labores del ciclo escolar 2014-2015 en el CETis108</p>
-                      <a href="#" class"ver-mas"> 
-                                <div class="boton">
-                                <div>
-                                    <p>Leer más</p>
-                                </div>
-                            </div>
-                      </a>
-                  </div>
-              </article>
-              <article class="=notas-secundarias">
-                  <figure>
-                      <img src="imagenes/notas/4/tmb.jpg" alt="nota1">
-                      <span>22 AGO</span>
-                  </figure>
-                  <div>
-                      <h2>Toma de protesta a nuevo director del CETis108</h2>
-                      <p>Se llevo a cabo la toma de protesta del nuevo director el C.P. y M.I. Julio Alberto Cruz Perales</p>
-                        <a href="#" class"ver-mas"> 
+                      <h2><a>Encuentro nacional de escoltas y bandas de guerra</a></h2>
+                      <p>Destacada participación del CETis No. 108 en Encuentro Nacional de Escoltas y Bandas de Guerra, obteniendo el Primer Lugar en Escolta de Bandera Categoría Libre, asi como</p>
+                       <a href="#" class"ver-mas"> 
                                <div class="boton">
                                 <div>
                                     <p>Leer más</p>
                                 </div>
                             </div>
-                      </a>
+                  </a>
                   </div>
               </article>
-            </section>
-            <aside id="publicidad">
-                publicidad
-                <img src="imagenes/luis%20ariel%20Bv.jpg" width="200px" height="300px" >
-            </aside>
-            </main>
-            <footer id="pie">pie de pagina</footer>
+        </section>
+        <aside id="publicidad">
+            <div class="redes-sociales text-center">
+                <a href="http://facebook.com/cetis108" class="facebook">
+                </a>
+                <a href="http//twitter.com/cetis108oficial" class="twitter">
+                </a>
+            </div>
+            <a href="#">
+            <img src="Imagenes/banner_vertical_bachillerato.png" class="sombra-imagen" width="220px">
+            </a>
+            <a href="#">
+            <img src="Imagenes/banner-jtyrc-2015.png" class="sombra-imagen" width="220px">
+            </a>
+            <a>
+                <img src="imagenes/prepa_en_linea_2016_vertical.jpg">
+            </a>
+        </aside>
         </div>
-        
-    </body>
+        <section id= "programas">
+            <figure>
+                <a href="#"><img class="sombra-imagen" src="Imagenes/Programas/abandono-escolar.jpg" alt="abandono escolar"></a>
+            </figure>
+            <figure>
+                <a href="#"><img class="sombra-imagen" src="Imagenes/Programas/becas-media-superior.jpg" alt="becas media superior"></a>
+            </figure>
+            <figure>
+                <a href="#"><img class="sombra-imagen" src="Imagenes/Programas/decide-tus-estudios.jpg" alt="decide estudios"></a>
+            </figure>
+            <figure>
+                <a href="#"><img class="sombra-imagen" src="Imagenes/Programas/prepa-videos.jpg" alt="prepa videos"></a>
+            </figure>
+        </section>
+    </main>
+        <footer id="pie">
+            <section id="politicas">
+            <p>CETis No.108 Guasave,Sinaloa,México ° Algunos derechos reservados &copy; 2013 ° Politicas de privacidad</p>
+            <div class="separador-sems">
+                <a href="#"><img src="Imagenes/sems_footer.png"></a>
+            </div>
+            <div class="text-center">
+                <p>Zona industrial S/N, Carretera a los Angeles del Triunfo</p>
+                <p>Guasave, Sinaloa, México - Tel. (687) 87 234 07</p>
+                <p>Comentarios sobre este Sitio de Internet</p>
+            </div>
+            </section>
+            
+           
+        </footer>
+    
+   
+   
+    </div>
+
+</body>
+
+</html>
